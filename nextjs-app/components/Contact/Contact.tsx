@@ -67,7 +67,7 @@ export const Contact = () => {
     >
       <SectionHeading>Contact me</SectionHeading>
 
-      <p className="text-gray-700 -mt-6 dark:text-white/80">
+      <p className="text-white/80 -mt-6 ">
         Please contact me directly at{" "}
         <a className="underline" href={sendEmailToViaClient}>
           {EMAIL_SEND_TO}
@@ -75,11 +75,11 @@ export const Contact = () => {
         or through this form.
       </p>
       <form
-        className="mt-10 flex flex-col dark:text-black"
+        className="mt-10 flex flex-col text-black"
         onSubmit={(e) => handleSubmit(e)}
       >
         <input
-          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          className="h-14 px-4 rounded-lg borderBlack bg-white bg-opacity-80 focus:bg-opacity-100 transition-all outline-none"
           name="senderEmail"
           type="email"
           required
@@ -88,7 +88,7 @@ export const Contact = () => {
           onChange={handleChange}
         />
         <textarea
-          className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          className="h-52 my-3 rounded-lg borderBlack p-4 bg-white bg-opacity-80 focus:bg-opacity-100 transition-all outline-none"
           name="message"
           placeholder="Your message"
           required
