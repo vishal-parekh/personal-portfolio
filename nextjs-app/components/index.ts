@@ -12,4 +12,3 @@ export { SectionDivider } from "./SectionDivider";
 export { SectionHeading } from "./SectionHeading";
 export { Skills } from "./Skills";
 export { SubmitButton } from "./SubmitButton";
-export { ThemeSwitcher } from "./ThemeSwitcher";
