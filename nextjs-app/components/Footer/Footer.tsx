@@ -8,7 +8,7 @@ export const Footer = () => {
       </small>
       <p className="text-xs">
         <span className="font-semibold">About this website:</span> Built with
-        TypeScript, Tailwind CSS, React & Next.js. The app is hosted on Vercel.
+        TypeScript, Tailwind CSS, React, & Next.js. The app is hosted on Vercel.
       </p>
     </footer>
   );
