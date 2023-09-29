@@ -20,8 +20,8 @@ export const About = () => {
         After my first year of grad school where I was pursuing my master&apos;s
         degree in <span className="font-medium">computer science</span>, I
         landed a software engineering internship in the financial services
-        industry to gain practical experience building scalable and large
-        software systems. Since then, I&apos;ve held multiple positions as a{" "}
+        industry to gain practical experience building large, scalable software
+        systems. Since then, I&apos;ve held multiple positions as a{" "}
         <span className="font-medium">full-stack developer</span> building
         fintech applications in the product space and as an independent
         consultant. My favorite aspect about software development is{" "}

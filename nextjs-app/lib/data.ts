@@ -35,17 +35,16 @@ export const links = [
 export const experiencesData = [
   {
     title: "Graduated with a MS in Computer Science",
-    location: "Dallas, TX",
-    description:
-      "Landed an internship after my first year of grad school and was offered an extension to continue working as part-time Software Systems Engineer while I finished my degree.",
+    location: "",
+    description: "",
     icon: React.createElement(LuGraduationCap),
-    date: "Graduated May 2020",
+    date: "May 2020",
   },
   {
     title: "Platform Developer and DevOps Intern",
     location: "Dallas, TX",
     description:
-      "My internship experience consisted of backend development building cloud-based web services using Microsoft Azure.",
+      "Landed a summer-fall internship after my first year in grad school. My experience consisted of backend development building cloud-based web services in Microsoft Azure.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2019 - Dec 2019",
   },
@@ -53,7 +52,7 @@ export const experiencesData = [
     title: "Software Systems Engineer",
     location: "Dallas, TX",
     description:
-      "Built more complex and robust backend systems and infrastructure for loan origination and refinancing processes.",
+      "I was offered an extension to continue working as a part-time Software Systems Engineer while I finished my degree. Built more complex and robust backend systems and infrastructure for loan origination and refinancing processes. Transitioned to full-time after I graduated.",
     icon: React.createElement(FaReact),
     date: "2019 - 2021",
   },
@@ -61,7 +60,7 @@ export const experiencesData = [
     title: "Associate Developer",
     location: "Dallas, TX",
     description:
-      "Consultant for a Big Four accounting firm where built RPA and automation solutions for clients.",
+      "Consultant for a Big Four accounting firm where I built RPA and other automation solutions on client-facing projects.",
     icon: React.createElement(FaReact),
     date: "2021",
   },
@@ -69,7 +68,7 @@ export const experiencesData = [
     title: "Full-Stack Software Engineer",
     location: "Austin, TX",
     description:
-      "Worked for a fintech start-up and upskilled to full-stack development. Developed and enhanced payment processing system integrated with Stripe using Python and designed and developed UI components and pages with TypeScript, React, and Next.js.",
+      "Worked for a fintech start-up and upskilled to full-stack development. Developed and enhanced Stripe-integrated payment processing system using Python. Designed and developed UI with TypeScript, React, and Next.js.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
@@ -105,6 +104,7 @@ export const skillsData = [
   "FastAPI",
   "Flask",
   "Django",
+  "Java",
   "JavaScript",
   "TypeScript",
   "React",
@@ -114,6 +114,7 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "PostgreSQL",
+  "NoSQL",
   "Git",
   "AWS",
   "Microsoft Azure",
