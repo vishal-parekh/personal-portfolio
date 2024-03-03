@@ -45,7 +45,7 @@ export const experiencesData = [
     title: "Platform Developer and DevOps Intern",
     location: "Dallas, TX",
     description:
-      "Landed a summer-fall internship after my first year in grad school. My experience consisted of backend development building cloud-based web services in Microsoft Azure.",
+      "Landed a summer-fall internship after finishing my first year of grad school. My experience consisted of building APIs hosted on Microsoft Azure.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2019 - Dec 2019",
   },
@@ -77,7 +77,7 @@ export const experiencesData = [
     title: "Software Engineer",
     location: "Austin, TX",
     description:
-      "Worked for a fintech start-up and upskilled to full-stack development. Developed and enhanced Stripe-integrated payment processing system using Python. Designed and developed UI with TypeScript, React, and Next.js.",
+      "Worked for a fintech start-up and upskilled to full-stack development. Developed and enhanced Stripe-integrated payment processing system using Python and developed UI components with TypeScript & React.",
     icon: React.createElement(FaReact),
     date: "2021 - 2023",
   },
