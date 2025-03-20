@@ -1,14 +1,42 @@
-import "./globals.css";
 import { Footer, Navbar } from "components";
 import { ActiveSectionContextProvider } from "contexts";
+import { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Toaster } from "react-hot-toast";
+import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+});
 
-export const metadata = {
+export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NODE_ENV === "development"
+      ? "http://localhost:3000"
+      : "https://vishalparekh.me/"
+  ),
   title: "Vishal | Personal Portfolio",
   description: "Vishal is a full-stack developer with ~3 years of experience.",
+  icons: {
+    icon: [
+      {
+        url: "/favicon.png",
+        type: "image/png",
+      },
+    ],
+  },
+  openGraph: {
+    title: "Vishal | Personal Portfolio",
+    description: "Vishal is a full-stack software engineer and AI-powered product builder.",
+    images: [
+      {
+        url: "/webLinkPreviewImg.png",
+        width: 1200,
+        height: 630,
+        alt: "Vishal's Portfolio",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
