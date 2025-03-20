@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Vishal | Personal Portfolio",
-    description: "Vishal is a full-stack developer with ~3 years of experience.",
+    description: "Vishal is a full-stack software engineer and AI-powered product builder.",
     images: [
       {
         url: "/webLinkPreviewImg.png",
