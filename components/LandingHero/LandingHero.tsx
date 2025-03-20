@@ -1,12 +1,11 @@
-import { useSectionInView } from "../../lib/hooks";
 import { useActiveSectionContext } from "contexts";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
+import { useSectionInView } from "../../lib/hooks";
 
 const LINKEDIN_URL = process.env.NEXT_PUBLIC_LINKEDIN_URL as string;
 const GITHUB_URL = process.env.NEXT_PUBLIC_GITHUB_URL as string;
@@ -23,9 +22,9 @@ export const LandingHero = () => {
     >
       <div
         style={{ transform: "translate3d(0,0,0)" }}
-        className="bg-[#946263] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"
+        className="bg-[#45595A] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"
       />
-      <div className="bg-[#676394] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]" />
+      <div className="bg-[#3A4A4B] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]" />
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -68,10 +67,9 @@ export const LandingHero = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hello, my name is <span className="font-bold">Vishal Parekh.</span> I am
-        a <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">~3 years</span> of experience. I enjoy
-        building applications using{" "}
+        Hello, my name is <span className="font-bold">Vishal Parekh!</span> I&apos;m a{" "}
+        <span className="font-bold">full-stack developer</span> and{" "}
+        <span className="font-bold">AI-powered product builder</span> creating modern SaaS applications using{" "}
         <span className="underline">Python, TypeScript, React, & Next.js</span>.
       </motion.h1>
 

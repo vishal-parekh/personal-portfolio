@@ -1,9 +1,9 @@
-import { useSectionInView } from "../../lib/hooks";
 import { SectionHeading, SubmitButton } from "components";
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import toast from "react-hot-toast";
 import { FormValues } from "types/form";
+import { useSectionInView } from "../../lib/hooks";
 
 const EMAIL_SEND_TO = process.env.NEXT_PUBLIC_EMAIL as string;
 const sendEmailToViaClient = "mailto:" + EMAIL_SEND_TO;

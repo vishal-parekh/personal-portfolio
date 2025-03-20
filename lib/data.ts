@@ -1,10 +1,11 @@
-import forwardtechSolutionsImg from "/public/forwardtechSolutions.png";
-import landmarkPropertyDallasImg from "/public/landmarkPropertyImg.png";
-import rocketDollarImg from "/public/rocketDollarImg.png";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import forwardtechSolutionsImg from "/public/forwardtechSolutions.png";
+import landmarkBuildingCoImg from "/public/landmarkBuildingCoImg.png";
+import landmarkPropertyDallasImg from "/public/landmarkPropertyImg.png";
+import rocketDollarImg from "/public/rocketDollarImg.png";
 
 export const links = [
   {
@@ -93,7 +94,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Landmark Property Dallas",
+    title: "Landmark Building Company",
+    description:
+      "Designed and built e-commerce ready website for a building supply company",
+    tags: ["Webflow"],
+    imageUrl: landmarkBuildingCoImg,
+  },
+  {
+    title: "Landmark Property Group",
     description:
       "Built a buy-side lead generation website for regional real estate investor.",
     tags: ["Tailwind CSS", "TypeScript", "Node", "React", "Next.js", "Vercel"],
@@ -117,7 +125,7 @@ export const projectsData = [
   {
     title: "Forwardtech Solutions",
     description:
-      "Founder  of rising consulting company that partners with companies to transform their business through technology.",
+      "Started a software consulting company that helps businesses solve problems and grow by building custom software solutions.",
     tags: ["Tailwind CSS", "TypeScript", "Node", "React", "Next.js", "Vercel"],
     imageUrl: forwardtechSolutionsImg,
   },
