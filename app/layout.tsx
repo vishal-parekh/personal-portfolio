@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     description: "Vishal is a full-stack developer with ~3 years of experience.",
     images: [
       {
-        url: "/favicon.ico",
-        width: 32,
-        height: 32,
+        url: "/webLinkPreviewImg.png",
+        // width: 1200,
+        // height: 630,
         alt: "Vishal's Portfolio",
       },
     ],
